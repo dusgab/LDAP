@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for C:\xampp\htdocs\LDAP\app</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href=".css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href=".css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href=".css/style.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src=".js/html5shiv.min.js"></script>
+  <script src=".js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="index.html">C:\xampp\htdocs\LDAP\app</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/AdminController.php.html#15">AdminController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ProvinciasController.php.html#9">ProvinciasController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Representante.php.html#7">Representante</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Provincia.php.html#7">Provincia</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Producto.php.html#7">Producto</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Operacion.php.html#7">Operacion</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Oferta.php.html#7">Oferta</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Despachante.php.html#7">Despachante</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Demanda.php.html#7">Demanda</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Contraoferta.php.html#7">Contraoferta</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Ciudad.php.html#7">Ciudad</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#15">UserController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RepresentanteController.php.html#10">RepresentanteController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ProductoController.php.html#9">ProductoController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ForgotPasswordController.php.html#8">ForgotPasswordController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/OperacionesController.php.html#11">OperacionesController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LdapController.php.html#10">LdapController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#7">HomeController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DespachanteController.php.html#10">DespachanteController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DemandasController.php.html#11">DemandasController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ContraofertaController.php.html#17">ContraofertaController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ResetPasswordController.php.html#8">ResetPasswordController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/RegisterController.php.html#18">RegisterController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#9">LoginController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#12">User</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/OfertasController.php.html#12">OfertasController</a></td><td class="text-right">4%</td></tr>
+       <tr><td><a href="Http/Controllers/PaginasController.php.html#12">PaginasController</a></td><td class="text-right">23%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#9">LoginController</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="Http/Controllers/ProductoController.php.html#9">ProductoController</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Http/Controllers/OfertasController.php.html#12">OfertasController</a></td><td class="text-right">79</td></tr>
+       <tr><td><a href="Http/Controllers/DemandasController.php.html#11">DemandasController</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Controllers/PaginasController.php.html#12">PaginasController</a></td><td class="text-right">37</td></tr>
+       <tr><td><a href="Http/Controllers/LdapController.php.html#10">LdapController</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/ProvinciasController.php.html#9">ProvinciasController</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/AdminController.php.html#18"><abbr title="AdminController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RepresentanteController.php.html#61"><abbr title="RepresentanteController::eliminarRep">eliminarRep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#91"><abbr title="UserController::editarPerfil">editarPerfil</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#69"><abbr title="UserController::buscarOperadores">buscarOperadores</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#58"><abbr title="UserController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#47"><abbr title="UserController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#36"><abbr title="UserController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#23"><abbr title="UserController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#19"><abbr title="UserController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RepresentanteController.php.html#112"><abbr title="RepresentanteController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RepresentanteController.php.html#101"><abbr title="RepresentanteController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RepresentanteController.php.html#89"><abbr title="RepresentanteController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RepresentanteController.php.html#78"><abbr title="RepresentanteController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RepresentanteController.php.html#50"><abbr title="RepresentanteController::buscarRep">buscarRep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#127"><abbr title="UserController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RepresentanteController.php.html#38"><abbr title="RepresentanteController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RepresentanteController.php.html#27"><abbr title="RepresentanteController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RepresentanteController.php.html#17"><abbr title="RepresentanteController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ProvinciasController.php.html#12"><abbr title="ProvinciasController::getCiudades">getCiudades</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ProductoController.php.html#112"><abbr title="ProductoController::anonymousFunction:112#301">anonymousFunction:112#301</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ProductoController.php.html#108"><abbr title="ProductoController::preciosba">preciosba</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ProductoController.php.html#97"><abbr title="ProductoController::eliminar">eliminar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ProductoController.php.html#86"><abbr title="ProductoController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ProductoController.php.html#75"><abbr title="ProductoController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ProductoController.php.html#63"><abbr title="ProductoController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ProductoController.php.html#52"><abbr title="ProductoController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#116"><abbr title="UserController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#137"><abbr title="UserController::demandas">demandas</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ProductoController.php.html#26"><abbr title="ProductoController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Producto.php.html#15"><abbr title="Producto::oferta">oferta</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#65"><abbr title="User::ciudad">ciudad</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#60"><abbr title="User::provincia">provincia</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#55"><abbr title="User::representante">representante</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#50"><abbr title="User::despachante">despachante</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#45"><abbr title="User::demanda">demanda</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#40"><abbr title="User::oferta">oferta</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#35"><abbr title="User::sendPasswordResetNotification">sendPasswordResetNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Representante.php.html#13"><abbr title="Representante::user">user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Provincia.php.html#18"><abbr title="Provincia::ciudad">ciudad</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Provincia.php.html#13"><abbr title="Provincia::user">user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Producto.php.html#20"><abbr title="Producto::demanda">demanda</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Operacion.php.html#15"><abbr title="Operacion::oferta">oferta</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#142"><abbr title="UserController::prueba">prueba</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Oferta.php.html#23"><abbr title="Oferta::operacion">operacion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Oferta.php.html#18"><abbr title="Oferta::producto">producto</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Oferta.php.html#13"><abbr title="Oferta::user">user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Despachante.php.html#13"><abbr title="Despachante::user">user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Demanda.php.html#18"><abbr title="Demanda::producto">producto</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Demanda.php.html#13"><abbr title="Demanda::user">user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Contraoferta.php.html#18"><abbr title="Contraoferta::user">user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Contraoferta.php.html#13"><abbr title="Contraoferta::oferta">oferta</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Ciudad.php.html#25"><abbr title="Ciudad::provincia">provincia</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Ciudad.php.html#20"><abbr title="Ciudad::user">user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Ciudad.php.html#15"><abbr title="Ciudad::getCiudades">getCiudades</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ProductoController.php.html#37"><abbr title="ProductoController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ProductoController.php.html#16"><abbr title="ProductoController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AdminController.php.html#22"><abbr title="AdminController::listarOperadores">listarOperadores</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#53"><abbr title="LoginController::attemptLogin">attemptLogin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ContraofertaController.php.html#74"><abbr title="ContraofertaController::rechazarOferta">rechazarOferta</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ContraofertaController.php.html#43"><abbr title="ContraofertaController::aceptarOferta">aceptarOferta</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ContraofertaController.php.html#34"><abbr title="ContraofertaController::detalleOferta">detalleOferta</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ContraofertaController.php.html#19"><abbr title="ContraofertaController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ResetPasswordController.php.html#35"><abbr title="ResetPasswordController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/RegisterController.php.html#79"><abbr title="RegisterController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/RegisterController.php.html#64"><abbr title="RegisterController::validator">validator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/RegisterController.php.html#53"><abbr title="RegisterController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/RegisterController.php.html#33"><abbr title="RegisterController::showRegistrationForm">showRegistrationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#147"><abbr title="LoginController::accessProtected">accessProtected</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#91"><abbr title="LoginController::retrieveSyncAttributes">retrieveSyncAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#46"><abbr title="LoginController::validateLogin">validateLogin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DemandasController.php.html#30"><abbr title="DemandasController::demandas">demandas</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#42"><abbr title="LoginController::username">username</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#37"><abbr title="LoginController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ForgotPasswordController.php.html#28"><abbr title="ForgotPasswordController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AdminController.php.html#90"><abbr title="AdminController::enviarMail">enviarMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AdminController.php.html#86"><abbr title="AdminController::nuevoOperador">nuevoOperador</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AdminController.php.html#81"><abbr title="AdminController::operaciones">operaciones</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AdminController.php.html#75"><abbr title="AdminController::productos">productos</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AdminController.php.html#70"><abbr title="AdminController::representantes">representantes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AdminController.php.html#61"><abbr title="AdminController::reasignar">reasignar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AdminController.php.html#52"><abbr title="AdminController::desactivar">desactivar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AdminController.php.html#36"><abbr title="AdminController::activar">activar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DemandasController.php.html#13"><abbr title="DemandasController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DemandasController.php.html#43"><abbr title="DemandasController::buscarDemandas">buscarDemandas</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#70"><abbr title="User::contraoferta">contraoferta</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LdapController.php.html#12"><abbr title="LdapController::autenticar">autenticar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PaginasController.php.html#25"><abbr title="PaginasController::operaciones">operaciones</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PaginasController.php.html#20"><abbr title="PaginasController::anonymousFunction:20#138">anonymousFunction:20#138</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PaginasController.php.html#18"><abbr title="PaginasController::operadores">operadores</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PaginasController.php.html#14"><abbr title="PaginasController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/OperacionesController.php.html#23"><abbr title="OperacionesController::listaroperaciones">listaroperaciones</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/OperacionesController.php.html#13"><abbr title="OperacionesController::misoperaciones">misoperaciones</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/OfertasController.php.html#84"><abbr title="OfertasController::eliminar">eliminar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/OfertasController.php.html#63"><abbr title="OfertasController::buscarOfertas">buscarOfertas</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/OfertasController.php.html#33"><abbr title="OfertasController::misofertas">misofertas</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/OfertasController.php.html#14"><abbr title="OfertasController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#24"><abbr title="HomeController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DemandasController.php.html#63"><abbr title="DemandasController::eliminar">eliminar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#14"><abbr title="HomeController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DespachanteController.php.html#124"><abbr title="DespachanteController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DespachanteController.php.html#113"><abbr title="DespachanteController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DespachanteController.php.html#101"><abbr title="DespachanteController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DespachanteController.php.html#90"><abbr title="DespachanteController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DespachanteController.php.html#73"><abbr title="DespachanteController::eliminarDesp">eliminarDesp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DespachanteController.php.html#61"><abbr title="DespachanteController::buscarDesp">buscarDesp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DespachanteController.php.html#54"><abbr title="DespachanteController::despachantes">despachantes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DespachanteController.php.html#40"><abbr title="DespachanteController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DespachanteController.php.html#29"><abbr title="DespachanteController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DespachanteController.php.html#17"><abbr title="DespachanteController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/OfertasController.php.html#46"><abbr title="OfertasController::ofertas">ofertas</abbr></a></td><td class="text-right">28%</td></tr>
+       <tr><td><a href="Http/Controllers/PaginasController.php.html#29"><abbr title="PaginasController::demandas">demandas</abbr></a></td><td class="text-right">28%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#91"><abbr title="LoginController::retrieveSyncAttributes">retrieveSyncAttributes</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#53"><abbr title="LoginController::attemptLogin">attemptLogin</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/LdapController.php.html#12"><abbr title="LdapController::autenticar">autenticar</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/OfertasController.php.html#46"><abbr title="OfertasController::ofertas">ofertas</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/PaginasController.php.html#29"><abbr title="PaginasController::demandas">demandas</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/DemandasController.php.html#30"><abbr title="DemandasController::demandas">demandas</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/DemandasController.php.html#43"><abbr title="DemandasController::buscarDemandas">buscarDemandas</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/OfertasController.php.html#33"><abbr title="OfertasController::misofertas">misofertas</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/OfertasController.php.html#63"><abbr title="OfertasController::buscarOfertas">buscarOfertas</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/ProductoController.php.html#108"><abbr title="ProductoController::preciosba">preciosba</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/ProductoController.php.html#112"><abbr title="ProductoController::anonymousFunction:112#301">anonymousFunction:112#301</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/ProvinciasController.php.html#12"><abbr title="ProvinciasController::getCiudades">getCiudades</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 5.2.3</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.8</a> with <a href="https://xdebug.org/">Xdebug 2.5.4</a> and <a href="https://phpunit.de/">PHPUnit 6.4.4</a> at Sun Nov 26 18:51:01 -03 2017.</small>
+    </p>
+   </footer>
+  </div>
+  <script src=".js/jquery.min.js" type="text/javascript"></script>
+  <script src=".js/bootstrap.min.js" type="text/javascript"></script>
+  <script src=".js/holder.min.js" type="text/javascript"></script>
+  <script src=".js/d3.min.js" type="text/javascript"></script>
+  <script src=".js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([25,1,0,1,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([109,0,0,2,0,0,0,0,0,0,0,1], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,10,"<a href=\"Http\/Controllers\/AdminController.php.html#15\">AdminController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ForgotPasswordController.php.html#8\">ForgotPasswordController<\/a>"],[0,18,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#9\">LoginController<\/a>"],[0,4,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#18\">RegisterController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ResetPasswordController.php.html#8\">ResetPasswordController<\/a>"],[0,4,"<a href=\"Http\/Controllers\/ContraofertaController.php.html#17\">ContraofertaController<\/a>"],[100,0,"<a href=\"Http\/Controllers\/Controller.php.html#10\">Controller<\/a>"],[0,6,"<a href=\"Http\/Controllers\/DemandasController.php.html#11\">DemandasController<\/a>"],[0,10,"<a href=\"Http\/Controllers\/DespachanteController.php.html#10\">DespachanteController<\/a>"],[0,2,"<a href=\"Http\/Controllers\/HomeController.php.html#7\">HomeController<\/a>"],[0,5,"<a href=\"Http\/Controllers\/LdapController.php.html#10\">LdapController<\/a>"],[4.545454545454546,9,"<a href=\"Http\/Controllers\/OfertasController.php.html#12\">OfertasController<\/a>"],[0,2,"<a href=\"Http\/Controllers\/OperacionesController.php.html#11\">OperacionesController<\/a>"],[23.076923076923077,8,"<a href=\"Http\/Controllers\/PaginasController.php.html#12\">PaginasController<\/a>"],[0,12,"<a href=\"Http\/Controllers\/ProductoController.php.html#9\">ProductoController<\/a>"],[0,2,"<a href=\"Http\/Controllers\/ProvinciasController.php.html#9\">ProvinciasController<\/a>"],[0,9,"<a href=\"Http\/Controllers\/RepresentanteController.php.html#10\">RepresentanteController<\/a>"],[0,11,"<a href=\"Http\/Controllers\/UserController.php.html#15\">UserController<\/a>"],[0,3,"<a href=\"Models\/Ciudad.php.html#7\">Ciudad<\/a>"],[0,2,"<a href=\"Models\/Contraoferta.php.html#7\">Contraoferta<\/a>"],[0,2,"<a href=\"Models\/Demanda.php.html#7\">Demanda<\/a>"],[0,1,"<a href=\"Models\/Despachante.php.html#7\">Despachante<\/a>"],[0,3,"<a href=\"Models\/Oferta.php.html#7\">Oferta<\/a>"],[0,1,"<a href=\"Models\/Operacion.php.html#7\">Operacion<\/a>"],[0,2,"<a href=\"Models\/Producto.php.html#7\">Producto<\/a>"],[0,2,"<a href=\"Models\/Provincia.php.html#7\">Provincia<\/a>"],[0,1,"<a href=\"Models\/Representante.php.html#7\">Representante<\/a>"],[0,8,"<a href=\"Models\/User.php.html#12\">User<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Http\/Controllers\/AdminController.php.html#18\">AdminController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AdminController.php.html#22\">AdminController::listarOperadores<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AdminController.php.html#36\">AdminController::activar<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AdminController.php.html#52\">AdminController::desactivar<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AdminController.php.html#61\">AdminController::reasignar<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AdminController.php.html#70\">AdminController::representantes<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AdminController.php.html#75\">AdminController::productos<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AdminController.php.html#81\">AdminController::operaciones<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AdminController.php.html#86\">AdminController::nuevoOperador<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AdminController.php.html#90\">AdminController::enviarMail<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ForgotPasswordController.php.html#28\">ForgotPasswordController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#37\">LoginController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#42\">LoginController::username<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#46\">LoginController::validateLogin<\/a>"],[0,5,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#53\">LoginController::attemptLogin<\/a>"],[0,9,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#91\">LoginController::retrieveSyncAttributes<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#147\">LoginController::accessProtected<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#33\">RegisterController::showRegistrationForm<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#53\">RegisterController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#64\">RegisterController::validator<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#79\">RegisterController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ResetPasswordController.php.html#35\">ResetPasswordController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ContraofertaController.php.html#19\">ContraofertaController::store<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ContraofertaController.php.html#34\">ContraofertaController::detalleOferta<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ContraofertaController.php.html#43\">ContraofertaController::aceptarOferta<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ContraofertaController.php.html#74\">ContraofertaController::rechazarOferta<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DemandasController.php.html#13\">DemandasController::store<\/a>"],[0,2,"<a href=\"Http\/Controllers\/DemandasController.php.html#30\">DemandasController::demandas<\/a>"],[0,2,"<a href=\"Http\/Controllers\/DemandasController.php.html#43\">DemandasController::buscarDemandas<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DemandasController.php.html#63\">DemandasController::eliminar<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DespachanteController.php.html#17\">DespachanteController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DespachanteController.php.html#29\">DespachanteController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DespachanteController.php.html#40\">DespachanteController::store<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DespachanteController.php.html#54\">DespachanteController::despachantes<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DespachanteController.php.html#61\">DespachanteController::buscarDesp<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DespachanteController.php.html#73\">DespachanteController::eliminarDesp<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DespachanteController.php.html#90\">DespachanteController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DespachanteController.php.html#101\">DespachanteController::edit<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DespachanteController.php.html#113\">DespachanteController::update<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DespachanteController.php.html#124\">DespachanteController::destroy<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#14\">HomeController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#24\">HomeController::index<\/a>"],[0,5,"<a href=\"Http\/Controllers\/LdapController.php.html#12\">LdapController::autenticar<\/a>"],[0,1,"<a href=\"Http\/Controllers\/OfertasController.php.html#14\">OfertasController::store<\/a>"],[0,2,"<a href=\"Http\/Controllers\/OfertasController.php.html#33\">OfertasController::misofertas<\/a>"],[28.57142857142857,3,"<a href=\"Http\/Controllers\/OfertasController.php.html#46\">OfertasController::ofertas<\/a>"],[0,2,"<a href=\"Http\/Controllers\/OfertasController.php.html#63\">OfertasController::buscarOfertas<\/a>"],[0,1,"<a href=\"Http\/Controllers\/OfertasController.php.html#84\">OfertasController::eliminar<\/a>"],[0,1,"<a href=\"Http\/Controllers\/OperacionesController.php.html#13\">OperacionesController::misoperaciones<\/a>"],[0,1,"<a href=\"Http\/Controllers\/OperacionesController.php.html#23\">OperacionesController::listaroperaciones<\/a>"],[0,1,"<a href=\"Http\/Controllers\/PaginasController.php.html#14\">PaginasController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/PaginasController.php.html#18\">PaginasController::operadores<\/a>"],[0,1,"<a href=\"Http\/Controllers\/PaginasController.php.html#20\">PaginasController::anonymousFunction:20#138<\/a>"],[0,1,"<a href=\"Http\/Controllers\/PaginasController.php.html#25\">PaginasController::operaciones<\/a>"],[28.57142857142857,3,"<a href=\"Http\/Controllers\/PaginasController.php.html#29\">PaginasController::demandas<\/a>"],[100,1,"<a href=\"Http\/Controllers\/PaginasController.php.html#45\">PaginasController::precios<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ProductoController.php.html#16\">ProductoController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ProductoController.php.html#26\">ProductoController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ProductoController.php.html#37\">ProductoController::store<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ProductoController.php.html#52\">ProductoController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ProductoController.php.html#63\">ProductoController::edit<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ProductoController.php.html#75\">ProductoController::update<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ProductoController.php.html#86\">ProductoController::destroy<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ProductoController.php.html#97\">ProductoController::eliminar<\/a>"],[0,2,"<a href=\"Http\/Controllers\/ProductoController.php.html#108\">ProductoController::preciosba<\/a>"],[0,2,"<a href=\"Http\/Controllers\/ProductoController.php.html#112\">ProductoController::anonymousFunction:112#301<\/a>"],[0,2,"<a href=\"Http\/Controllers\/ProvinciasController.php.html#12\">ProvinciasController::getCiudades<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RepresentanteController.php.html#17\">RepresentanteController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RepresentanteController.php.html#27\">RepresentanteController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RepresentanteController.php.html#38\">RepresentanteController::store<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RepresentanteController.php.html#50\">RepresentanteController::buscarRep<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RepresentanteController.php.html#61\">RepresentanteController::eliminarRep<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RepresentanteController.php.html#78\">RepresentanteController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RepresentanteController.php.html#89\">RepresentanteController::edit<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RepresentanteController.php.html#101\">RepresentanteController::update<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RepresentanteController.php.html#112\">RepresentanteController::destroy<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#19\">UserController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#23\">UserController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#36\">UserController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#47\">UserController::store<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#58\">UserController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#69\">UserController::buscarOperadores<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#91\">UserController::editarPerfil<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#116\">UserController::update<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#127\">UserController::destroy<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#137\">UserController::demandas<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#142\">UserController::prueba<\/a>"],[0,1,"<a href=\"Models\/Ciudad.php.html#15\">Ciudad::getCiudades<\/a>"],[0,1,"<a href=\"Models\/Ciudad.php.html#20\">Ciudad::user<\/a>"],[0,1,"<a href=\"Models\/Ciudad.php.html#25\">Ciudad::provincia<\/a>"],[0,1,"<a href=\"Models\/Contraoferta.php.html#13\">Contraoferta::oferta<\/a>"],[0,1,"<a href=\"Models\/Contraoferta.php.html#18\">Contraoferta::user<\/a>"],[0,1,"<a href=\"Models\/Demanda.php.html#13\">Demanda::user<\/a>"],[0,1,"<a href=\"Models\/Demanda.php.html#18\">Demanda::producto<\/a>"],[0,1,"<a href=\"Models\/Despachante.php.html#13\">Despachante::user<\/a>"],[0,1,"<a href=\"Models\/Oferta.php.html#13\">Oferta::user<\/a>"],[0,1,"<a href=\"Models\/Oferta.php.html#18\">Oferta::producto<\/a>"],[0,1,"<a href=\"Models\/Oferta.php.html#23\">Oferta::operacion<\/a>"],[0,1,"<a href=\"Models\/Operacion.php.html#15\">Operacion::oferta<\/a>"],[0,1,"<a href=\"Models\/Producto.php.html#15\">Producto::oferta<\/a>"],[0,1,"<a href=\"Models\/Producto.php.html#20\">Producto::demanda<\/a>"],[0,1,"<a href=\"Models\/Provincia.php.html#13\">Provincia::user<\/a>"],[0,1,"<a href=\"Models\/Provincia.php.html#18\">Provincia::ciudad<\/a>"],[0,1,"<a href=\"Models\/Representante.php.html#13\">Representante::user<\/a>"],[0,1,"<a href=\"Models\/User.php.html#35\">User::sendPasswordResetNotification<\/a>"],[0,1,"<a href=\"Models\/User.php.html#40\">User::oferta<\/a>"],[0,1,"<a href=\"Models\/User.php.html#45\">User::demanda<\/a>"],[0,1,"<a href=\"Models\/User.php.html#50\">User::despachante<\/a>"],[0,1,"<a href=\"Models\/User.php.html#55\">User::representante<\/a>"],[0,1,"<a href=\"Models\/User.php.html#60\">User::provincia<\/a>"],[0,1,"<a href=\"Models\/User.php.html#65\">User::ciudad<\/a>"],[0,1,"<a href=\"Models\/User.php.html#70\">User::contraoferta<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

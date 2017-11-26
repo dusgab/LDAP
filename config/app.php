@@ -239,7 +239,8 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         'Zipper' => Chumper\Zipper\Zipper::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
-        'Adldap' => Adldap\Laravel\Facades\Adldap::class
+        'Adldap' => Adldap\Laravel\Facades\Adldap::class,
+        'PHPUnit_Framework_Assert' => \PHPUnit\Framework\Assert::class
     ],
 
 ];

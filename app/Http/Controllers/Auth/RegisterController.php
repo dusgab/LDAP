@@ -2,13 +2,13 @@
 
 namespace LDAP\Http\Controllers\Auth;
 
-use LDAP\User;
-use LDAP\Provincia;
-use LDAP\Despachante;
-use LDAP\Representante;
-use LDAP\Mail\Bienvenido;
-use LDAP\Mail\UsuarioRegistrado;
-use LDAP\Http\Controllers\Controller;
+use LDAP\Models\User;
+use LDAP\Models\Provincia;
+use LDAP\Models\Despachante;
+use LDAP\Models\Representante;
+use LDAP\Models\Mail\Bienvenido;
+use LDAP\Models\Mail\UsuarioRegistrado;
+use LDAP\Models\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Mail;
