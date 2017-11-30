@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Unit" tests="5" assertions="15" errors="0" failures="0" skipped="0" time="3.883794">
-    <testsuite name="Tests\Unit\ExampleTest" file="C:\xampp\htdocs\LDAP\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.606280">
-      <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="C:\xampp\htdocs\LDAP\tests\Unit\ExampleTest.php" line="15" assertions="1" time="0.606280"/>
+  <testsuite name="Unit" tests="5" assertions="15" errors="0" failures="0" skipped="0" time="5.378777">
+    <testsuite name="Tests\Unit\ExampleTest" file="C:\xampp\htdocs\LDAP\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.655499">
+      <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="C:\xampp\htdocs\LDAP\tests\Unit\ExampleTest.php" line="15" assertions="1" time="0.655499"/>
     </testsuite>
-    <testsuite name="Tests\Unit\InicioTest" file="C:\xampp\htdocs\LDAP\tests\Unit\InicioTest.php" tests="4" assertions="14" errors="0" failures="0" skipped="0" time="3.277514">
-      <testcase name="testInicio" class="Tests\Unit\InicioTest" classname="Tests.Unit.InicioTest" file="C:\xampp\htdocs\LDAP\tests\Unit\InicioTest.php" line="15" assertions="2" time="0.836653"/>
-      <testcase name="testClickOfertas" class="Tests\Unit\InicioTest" classname="Tests.Unit.InicioTest" file="C:\xampp\htdocs\LDAP\tests\Unit\InicioTest.php" line="21" assertions="4" time="0.811108"/>
-      <testcase name="testClickDemandas" class="Tests\Unit\InicioTest" classname="Tests.Unit.InicioTest" file="C:\xampp\htdocs\LDAP\tests\Unit\InicioTest.php" line="28" assertions="4" time="0.812856"/>
-      <testcase name="testClickPrecios" class="Tests\Unit\InicioTest" classname="Tests.Unit.InicioTest" file="C:\xampp\htdocs\LDAP\tests\Unit\InicioTest.php" line="35" assertions="4" time="0.816897"/>
+    <testsuite name="Tests\Unit\InicioTest" file="C:\xampp\htdocs\LDAP\tests\Unit\InicioTest.php" tests="4" assertions="14" errors="0" failures="0" skipped="0" time="4.723278">
+      <testcase name="testInicio" class="Tests\Unit\InicioTest" classname="Tests.Unit.InicioTest" file="C:\xampp\htdocs\LDAP\tests\Unit\InicioTest.php" line="15" assertions="2" time="1.287216"/>
+      <testcase name="testClickOfertas" class="Tests\Unit\InicioTest" classname="Tests.Unit.InicioTest" file="C:\xampp\htdocs\LDAP\tests\Unit\InicioTest.php" line="21" assertions="4" time="1.114425"/>
+      <testcase name="testClickDemandas" class="Tests\Unit\InicioTest" classname="Tests.Unit.InicioTest" file="C:\xampp\htdocs\LDAP\tests\Unit\InicioTest.php" line="28" assertions="4" time="1.175084"/>
+      <testcase name="testClickPrecios" class="Tests\Unit\InicioTest" classname="Tests.Unit.InicioTest" file="C:\xampp\htdocs\LDAP\tests\Unit\InicioTest.php" line="35" assertions="4" time="1.146553"/>
     </testsuite>
   </testsuite>
 </testsuites>

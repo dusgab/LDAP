@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1511733061">
-  <project timestamp="1511733061">
+<coverage generated="1512075224">
+  <project timestamp="1512075224">
     <package name="LDAP\Http\Controllers">
       <file name="C:\xampp\htdocs\LDAP\app/Http/Controllers/AdminController.php">
         <class name="AdminController" namespace="LDAP\Http\Controllers">
